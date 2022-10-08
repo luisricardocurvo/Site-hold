@@ -40,7 +40,7 @@
      * gradient color
      */
   
-    --gradient: linear-gradient(to left top, var(--persian-rose), var(--safety-orange));
+    --gradient: linear-gradient(to left top, #ffce00, #ffce00);
   
     /**
      * typography
