@@ -1,216 +1,221 @@
-InnoHub - We're available for marketing
+SCEO - Seo agency website
 
-#---------- HEADER ----------#
 
-InnoHub
+
+# HEADER
+
+alt = SCEO logo
+
+<ion-icon name="menu-outline"></ion-icon>
+<ion-icon name="close-outline"></ion-icon>
 
 Home
-Services
-Project
+Service
+About
+Features
+Pricing
+FAQ's
+
+Let's Started
+
+
+
+# HERO
+
+Get more sales with SEO, PPC, and Email Marketing
+
+placeholder = Enter your name*
+placeholder = Enter your email*
+
+Get started now
+
+Free 30 days trial
+Exclusive Support
+No Fees
+
+alt = Seo illustration
+
+
+
+# SERVICE
+
+Get More Customers Online
+
+Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien
+
+<ion-icon name="location-outline"></ion-icon>
+Local SEO
+Porta semper lacus cursus feugiat and primis ultrice
+
+<ion-icon name="bar-chart-outline"></ion-icon>
+E-Commerce SEO
+
+<ion-icon name="pie-chart-outline"></ion-icon>
+Advanced Analytics
+
+<ion-icon name="magnet-outline"></ion-icon>
+PPC Management
+
+
+
+# ABOUT
+
+alt = Seo illustration
+
+quick and secure
+
+First page rankings. First name basis
+
+Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna dolor luctus and egestas sapien egestas vitae nemo volute
+
+Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna dolor luctus and egestas sapien egestas vitae nemo volute
+
+
+alt = Seo illustration
+
+Advanced Analytics Review
+
+Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat sodales a sapien
+
+Improve Your Website Ranking Fast
+
+Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus and quaerat
+
+Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
+
+
+
+# FEATURES
+
+Market research
+Integrated marketing solutions that fuel business growth
+
+<ion-icon name="analytics-outline"></ion-icon>
+Advanced Analytics Review
+
+Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
+
+<ion-icon name="mail-open-outline"></ion-icon>
+Email Marketing Campaigns
+
+<ion-icon name="film-outline"></ion-icon>
+Video Marketing
+
+<ion-icon name="globe-outline"></ion-icon>
+Search Engine Optimization (SEO)
+
+<ion-icon name="magnet-outline"></ion-icon>
+Pay Per Click (PPC)
+
+<ion-icon name="layers-outline"></ion-icon>
+Content Marketing
+
+
+
+# PRICING
+
+Easiest to use
+
+One brilliant idea for every client
+
+Aliqum mullam blandit tempor sapien gravida at donec ipsum porta justo. Velna vitae auctor and congue magna impedit luctus dolor volute
+
+Pricing & packages
+
+alt = Pricing illustration
+
+
+
+# FAQ
+
+Frequently asked questions
+
+Everything you need to know before getting started
+
+Can I see SCEO in action before purchasing?
+
+Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit vitae
+
+What are the requirements for using SCEO?
+
+An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor integer congue undo magna at pretium purus pretium
+
+Can I use SCEO on different devices?
+
+Fringilla risus, luctus mauris orci auctor purus ligula euismod pretium purus pretium rutrum tempor sapien
+
+Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium a purus
+
+Do you have a free trial?
+
+Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc sapien
+
+How does SCEO handle my privacy?
+
+Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula
+
+An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at velna
+
+I have an issue with my account
+
+Fringilla risus, luctus mauris orci auctor purus
+
+Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus
+
+Have more questions?
+Ask your question here
+
+
+
+# CTA
+
+Try SCEO free for 14 days. Start your trial now and pick a plan later
+
+Get started now
+
+Read The FAQs
+
+
+
+# FOOTER
+
+alt = SCEO logo
+
+Aliquam nullam tempor sapien donec and gravida congue an ipsum porta justo velna auctor magna and laoreet augue an auctor gravida donec
+
+Company
+
 About Us
-Blog
+Careers
+Press & Media
 Contact Us
 
-Get Started
+Discover
 
-aria-label = Toggle menu
-<ion-icon name="menu-outline" class="open"></ion-icon>
-<ion-icon name="close-outline" class="close"></ion-icon>
+Our Blog
+Advertising
+Plans & Pricing
+Testimonials
 
+Legal
 
+Terms of Use
+Privacy Policy
+Cookie Policy
+Site Map
 
-#---------- HERO ----------#
+Support
 
-InnoHub Marketing Agency
+FAQs
+Editor Help
+Community
+Live Chatting
 
-We are available for marketing
+&copy; 2022 codewithsadee. All Rights Reserved
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporthem incididunt ut labore et dolore magna aliqua.
+GitHub
+Twitter
+Instagram
+YouTube
 
-Get Started
-
-alt = hero banner
-
-
-
-#---------- SERVICE ----------#
-
-Services We Provided
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-
-<ion-icon name="chatbox"></ion-icon>
-
-SEO Optimization
-
-Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-
-<ion-icon name="desktop"></ion-icon>
-Digital Marketing
-
-<ion-icon name="bulb"></ion-icon>
-Market Research
-
-<ion-icon name="phone-portrait"></ion-icon>
-Keyword Targeting
-
-<ion-icon name="archive"></ion-icon>
-Email Marketing
-
-<ion-icon name="build"></ion-icon>
-Marketing & Reporting
-
-
-
-#---------- PROJECT ----------#
-
-Our Recent Projects
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = Designing a better cinema experience
-
-SEO Optimization
-
-Designing a better cinema experience
-
-View Details
-
-
-alt = Building design process within teams
-Digital Marketing
-
-alt = How intercom brings play into their design process
-Keyword Targeting
-
-alt = Stuck with to-do list, I created a new app for
-Email Marketing
-
-alt = Examples of different types of sprints
-Marketing & Reporting
-
-alt = Redesigning the New York times app
-Development
-
-
-
-#---------- ABOUT ----------#
-
-alt = about banner
-
-aria-label = Play video
-
-<ion-icon name="play" aria-hidden="true"></ion-icon>
-
-About Us
-
-Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.
-
-Who We Are
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-Our Success
-
-<ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
-
-Our Mission
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in.
-
-
-
-#---------- CTA ----------#
-
-So What is Next?
-
-Are You Ready? Let's get to Work!
-
-Get Started
-
-
-
-#---------- BLOG ----------#
-
-Latest Articles Updated Weekly
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = How to Become a Successful Entry Level UX Designer
-
-June 16, 2022
-
-How to Become a Successful Entry Level UX Designer
-
-alt = 2022 Local SEO Success: The Year of Everywhere
-
-alt = The Guide to Running a Client Discovery Process
-
-alt = 3 Ways to Get Client Approval for Scope Changes
-
-alt = Top 21 Must-Read Blogs For Creative Agencies
-
-
-
-#---------- CONTACT ----------#
-
-Let's Contact With Us
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-aria-label = name
-placeholder = Your name*
-
-aria-label = email
-placeholder = Email address*
-
-aria-label = subject
-placeholder = Subject
-
-aria-label = phone
-placeholder = Phone number
-
-aria-label = message
-placeholder = Your message...*
-
-Accept Terms of Services and Privacy Policy
-
-Send Message
-
-<ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-
-Mail Here
-hello@luaz.com
-info@luaz.com
-
-<ion-icon name="map-outline" aria-hidden="true"></ion-icon>
-
-Visit Here
-27 Division St, New York,
-NY 10002, USA
-
-<ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
-
-Call Here
-+123 456 7890
-+241 452 4526
-
-
-
-#---------- FOOTER ----------#
-
-&copy; 2022 All Rights Reserved by codewithsadee
-
-
-
-#---------- BACK TO TOP ----------#
-
-aria-label = back to top
-
-<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>     
+<ion-icon name="arrow-up-outline"></ion-icon>

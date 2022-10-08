@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hold Publicidades</title>
+  <title>SCEO - Seo agency website</title>
 
   <!-- 
-    - favicon
+    - favicon link
   -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
@@ -22,100 +22,66 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-   href="https://fonts.googleapis.com/css?family=opensauce"
-    rel="stylesheet">
-  
-  <!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '676826170160443');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=676826170160443&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10999680574"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-10999680574');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KNGC6DQ');</script>
-<!-- End Google Tag Manager -->
-  <meta name="facebook-domain-verification" content="o4zz9tlyqdwz30rmxsha7ae3bzy7j8" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body id="top">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGC6DQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
   <!-- 
     - #HEADER
   -->
 
-  <header class="header" data-header>
+  <header data-header>
+
+    <!-- 
+      - #overlay
+    -->
+
+    <div class="overlay" data-overlay></div>
+
     <div class="container">
 
-      <a href="#" class="logo">Hold Publicidades</a>
+      <a href="#" class="logo">
+        Hold Publicidades
+      </a>
 
-      <nav class="navbar container" data-navbar>
+      <button class="nav-open-btn" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
         <ul class="navbar-list">
 
-          <li>
-            <a href="#home" class="navbar-link" data-nav-link>Início</a>
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link">Início</a>
           </li>
 
-          <li>
-            <a href="#service" class="navbar-link" data-nav-link>Nossos Serviços</a>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link">Como podemos te ajudar</a>
           </li>
 
-          <li>
-            <a href="#project" class="navbar-link" data-nav-link>Projetos</a>
-          </li>
-
-          <li>
-            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link">Serviços</a>
           </li>
 
           
 
-          <li>
-            <a href="#contact" class="navbar-link" data-nav-link>Contato</a>
-          </li>
-
-          <li>
-            <a href="https://api.whatsapp.com/send?phone=5548988362276&text=Ol%C3%A1%2C%20eu%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" class="btn btn-primary">Conversar no whatsapp</a>
-          </li>
+        
 
         </ul>
+
+        
+
       </nav>
 
-      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
-        <ion-icon name="menu-outline" class="open"></ion-icon>
-        <ion-icon name="close-outline" class="close"></ion-icon>
-      </button>
-
     </div>
+
   </header>
 
 
@@ -129,22 +95,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         - #HERO
       -->
 
-      <section class="section hero" id="home" aria-label="hero">
+      <section class="hero" id="hero">
         <div class="container">
 
           <div class="hero-content">
 
+            <h1 class="h2 hero-title">Nós te ajudamos a multiplicar o seu faturamento com anúncios estratégicos</h2>
+
+           <p>Nos chame no whatsapp agora para uma consultoria gratuita</p>
             
 
-            <h2 class="h2 hero-title">Nós te ajudamos a multiplicar o seu faturamento com anúncios estratégicos</h1>
-             <p>Nos chame no whatsapp agora para uma consultoria gratuita</p>
+              <a href="https://api.whatsapp.com/send?phone=5548988362276&amp;text=Ol%C3%A1%2C%20eu%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"  class="btn btn-primary">Eu quero uma consultória gratuita</a>
 
-            <a href="https://api.whatsapp.com/send?phone=5548988362276&text=Ol%C3%A1%2C%20eu%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" class="btn btn-primary">Eu quero uma consultória gratuita</a>
 
           </div>
 
           <figure class="hero-banner">
-            <img src="./assets/images/hero-banner1.png" width="720" height="673" alt="hero banner" class="w-100">
+            <img src="./assets/images/pricing-banner.png" alt="Seo illustration">
           </figure>
 
         </div>
@@ -158,136 +125,219 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         - #SERVICE
       -->
 
-      <section class="section service" id="service" aria-label="service">
+      <section class="service" id="service">
         <div class="container">
 
-          <h2 class="h2 section-title">Nossos Serviços</h2>
+          <h2 class="h3 section-title">Porque anunciar com a gente?</h2>
 
           <p class="section-text">
-         
+          
           </p>
 
-          <ul class="grid-list">
+        
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <div class="about-top">
+
+            <figure class="about-banner">
+              <img src="./assets/images/about-banner-1.png" alt="Seo illustration">
+            </figure>
+
+            <div class="about-content">
+
+            
+
+              <h2 class="h3 section-title">AUMENTAMOS SUA VISIBILIDADE NO MERCADO </h2>
+
+              <p class="section-text">
+                Mais de 90% das buscas dos brasileiros são feitas através do Google.
+                Seja visto por milhares de potenciais clientes: basta que as pessoas cliquem
+                no anúncio para fazer uma compra ou saber mais sobre você.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="about-bottom">
+
+            <figure class="about-banner">
+              <img src="./assets/images/about-banner-2.png" alt="Seo illustration">
+            </figure>
+
+            <div class="about-content">
+
+              <h3 class="h4 about-bottom-title">Seja encontrado por quem te procura</h3>
+
+              <p class="section-text">
+                O seu anúncio irá aparecer apenas para clientes que buscarem por produtos
+                ou serviços que a sua empresa oferece. As campanhas são criadas com 
+                palavras-chave definidas conforme o perfil, a necessidade do seu negócio e o 
+                público alvo.
+              </p>
+
+              <h3 class="h4 about-bottom-title">Foque em clientes: perto ou longe de você</h3>
+
+              <ul class="about-bottom-list">
+
+                <li class="about-bottom-item">
+                  <p class="section-text">
+                    Alcance clientes das regiões que interessam ao seu negócio. Basta definir a
+exibição dos seus anúncios conforme cidade, estado ou país da pessoa que
+faz a pesquisa.
+                  </p>
+                </li>
+
+          
+
+              </ul>
+              <h3 class="h4 about-bottom-title">Deixe a operação por nossa conta</h3>
+
+              <ul class="about-bottom-list">
+
+                <li class="about-bottom-item">
+                  <p class="section-text">
+                    Nossa equipe de analistas irá ajudá-lo a definir com agilidade as palavras-
+chave mais adequadas ao seu objetivo, cuidando diariamente das suas 
+campanhas para garantir a cobertura e visibilidade ideais.
+faz a pesquisa.
+                  </p>
+                </li>
+
+          
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="features" id="features">
+        <div class="container">
+
+          <h2 class="h3 section-title">Nossos Serviços</h2>
+
+          <ul class="features-list">
 
             <li>
-              <div class="service-card">
+              <div class="features-card">
 
-                <div class="card-icon" style="background-color: #13c4a1">
-                  <ion-icon name="chatbox"></ion-icon>
+                <div class="card-icon">
+                  <ion-icon name="analytics-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3">
-                  <a href="#" class="card-title">Anúncios Estratégicos</a>
-                </h3>
+                <div class="card-content">
+                  <h3 class="h4 card-title">ANÚNCIOS ESTRATÉGICOS </h3>
 
-                <p class="card-text">
-                  Trazemos visibilidade para sua empresa. <br>Através de anuncios estratégicos
-                  Milhares de pessoas conhecendo o seu trabalho nas plataformas Facebook,Instagram e Google Ads.
-                </p>
+                  <p class="section-text">
+                    Trazemos visibilidade para sua empresa através de anuncios estratégicos com milhares de pessoas conhecendo o seu trabalho pelo Facebook, Instagram e Google Ads.
+                  </p>
+                </div>
 
               </div>
             </li>
 
             <li>
-              <div class="service-card">
+              <div class="features-card">
 
-                <div class="card-icon" style="background-color: #6610f2">
-                  <ion-icon name="desktop"></ion-icon>
+                <div class="card-icon">
+                  <ion-icon name="mail-open-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3">
-                  <a href="#" class="card-title">Gestão de Redes sociais</a>
-                </h3>
+                <div class="card-content">
+                  <h3 class="h4 card-title">GESTÃO DE REDES SOCIAIS</h3>
 
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
+                  <p class="section-text">
+                    Com planejamentos estratégicos usamos suas redes sociais como uma verdadeira máquina, para transformar cliques em clientes.
+                  </p>
+                </div>
 
               </div>
             </li>
 
             <li>
-              <div class="service-card">
+              <div class="features-card">
 
-                <div class="card-icon" style="background-color: #ffb700">
-                  <ion-icon name="bulb"></ion-icon>
+                <div class="card-icon">
+                  <ion-icon name="film-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3">
-                  <a href="#" class="card-title">Market Research</a>
-                </h3>
+                <div class="card-content">
+                  <h3 class="h4 card-title">DESENVOLVIMENTO DE <br>LOJA VIRTUAL OU SITES</h3>
 
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
+                  <p class="section-text">
+                    Desenvolvemos uma loja virtual ou site otimizado e responsivo (se ajusta ao dispositivo do seu cliente, 
+                    celular, computador e tablet) para atender a necessidade do seu negócio.
+                  </p>
+                </div>
 
               </div>
             </li>
 
             <li>
-              <div class="service-card">
+              <div class="features-card">
 
-                <div class="card-icon" style="background-color: #fc3549">
-                  <ion-icon name="phone-portrait"></ion-icon>
+                <div class="card-icon">
+                  <ion-icon name="globe-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3">
-                  <a href="#" class="card-title">Keyword Targeting</a>
-                </h3>
+                <div class="card-content">
+                  <h3 class="h4 card-title">CONSULTORIA</h3>
 
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
+                  <p class="section-text">
+                    Dedicaremos um tempo para analisar o seu negócio e 
+                    auxiliar sua empresa a se posicionar na internet, 
+                    com a melhor estratégia para o seu público alvo.
+                  </p>
+                </div>
 
               </div>
             </li>
 
             <li>
-              <div class="service-card">
+              <div class="features-card">
 
-                <div class="card-icon" style="background-color: #00d280">
-                  <ion-icon name="archive"></ion-icon>
+                <div class="card-icon">
+                  <ion-icon name="magnet-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3">
-                  <a href="#" class="card-title">Email Marketing</a>
-                </h3>
+                <div class="card-content">
+                  <h3 class="h4 card-title">DESING PARA REDES SOCIAIS </h3>
 
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
+                  <p class="section-text">
+                    Criamos uma identidade visual personalizada para sua empresa, 
+                    trazendo uma cara estilizada e muito mais profissional. 
+                  </p>
+                </div>
 
               </div>
             </li>
 
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #ff612f">
-                  <ion-icon name="build"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Marketing & Reporting</a>
-                </h3>
-
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
-
-              </div>
-            </li>
-
+            
           </ul>
 
         </div>
@@ -298,171 +348,156 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
       <!-- 
-        - #PROJECT
+        - #PRICING
       -->
 
-      <section class="section project" id="project" aria-label="project">
+      <section class="pricing" id="pricing">
         <div class="container">
 
-          <h2 class="h2 section-title">Our Recent Projects</h2>
+          <div class="pricing-content">
 
-          <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna
-            aliqua.
-          </p>
+            <p class="section-subtitle">Easiest to use</p>
 
-          <ul class="grid-list">
+            <h2 class="h3 section-title">One brilliant idea for every client</h2>
 
-            <li>
-              <div class="project-card">
+            <p class="section-text">
+              Aliqum mullam blandit tempor sapien gravida at donec ipsum porta justo. Velna vitae auctor and congue
+              magna impedit
+              luctus dolor volute
+            </p>
 
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-1.png" width="510" height="700" loading="lazy"
-                    alt="Designing a better cinema experience" class="img-cover">
-                </figure>
+            <button class="btn btn-primary">Pricing & packages</button>
 
-                <div class="card-content">
+          </div>
 
-                  <p class="card-subtitle">SEO Optimization</p>
+          <figure class="pricing-banner">
+            <img src="./assets/images/pricing-banner.png" alt="Pricing illustration">
+          </figure>
 
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Designing a better cinema experience</a>
-                  </h3>
+        </div>
+      </section>
 
-                  <a href="#" class="btn btn-primary">View Details</a>
 
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-2.jpg" width="510" height="700" loading="lazy"
-                    alt="Building design process within teams" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <p class="card-subtitle">Digital Marketing</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Building design process within teams</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-primary">View Details</a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-3.jpg" width="510" height="700" loading="lazy"
-                    alt="How intercom brings play into their design process" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <p class="card-subtitle">Keyword Targeting</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">How intercom brings play into their design process</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-primary">View Details</a>
-
-                </div>
-
-              </div>
-            </li>
-          </ul>
-            
 
 
 
       <!-- 
-        - #ABOUT
+        - #FAQ
       -->
 
-      <section class="section about" id="about" aria-label="about">
+      <section class="faq" id="faq">
         <div class="container">
 
-          <div class="about-banner img-holder" style="--width: 720; --height: 960;">
-            <img src="./assets/images/about-banner.jpg" width="720" height="960" loading="lazy" alt="about banner"
-              class="img-cover">
+          <p class="section-subtitle">Frequently asked questions</p>
 
-            <button class="play-btn" aria-label="Play video">
-              <ion-icon name="play" aria-hidden="true"></ion-icon>
-            </button>
-          </div>
+          <h2 class="h3 section-title">Everything you need to know before getting started</h2>
 
-          <div class="about-content">
+          <div class="grid-wrapper">
 
-            <h2 class="h2 section-title">Sobre Nós</h2>
+            <ul class="faq-list">
 
-            <p class="section-text">
-              A Hold é uma agencia de Marketing Digital focada em conversão, nosso objetivo é
-              transformar cliques em clientes.
-            </p>
-
-            <h3 class="h3">Who We Are</h3>
-
-            <p class="section-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-              rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            </p>
-
-            <h3 class="h3">Our Success</h3>
-
-            <ul class="about-list">
-
-              <li class="about-item">
-                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+              <li>
+                <h3 class="h4 card-title">Can I see SCEO in action before purchasing?</h3>
 
                 <p class="section-text">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula
+                  egestas and magna
+                  suscipit lectus magna suscipit luctus blandit vitae
                 </p>
               </li>
 
-              <li class="about-item">
-                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+              <li>
+                <h3 class="h4 card-title">What are the requirements for using SCEO?</h3>
 
                 <p class="section-text">
-                  It is a long established fact that a reader will be distracted by the readable content of a page when
-                  looking at its
-                  layout.
+                  An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor
+                  integer congue undo
+                  magna at pretium purus pretium
                 </p>
               </li>
 
-              <li class="about-item">
-                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+              <li>
 
-                <p class="section-text">
-                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                  classical Latin
-                  literature.
-                </p>
+                <h3 class="h4 card-title">Can I use SCEO on different devices?</h3>
+
+                <ul class="faq-item-list">
+
+                  <li>
+                    <p class="section-text">
+                      Fringilla risus, luctus mauris orci auctor purus ligula euismod pretium purus pretium rutrum
+                      tempor sapien
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="section-text">
+                      Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium a purus
+                    </p>
+                  </li>
+
+                </ul>
+
               </li>
 
             </ul>
 
-            <h3 class="h3">Our Mission</h3>
+            <ul class="faq-list">
 
-            <p class="section-text">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-              atque corrupti
-              quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in.
-            </p>
+              <li>
+                <h3 class="h4 card-title">Do you have a free trial?</h3>
+
+                <p class="section-text">
+                  Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida
+                  donec and neque.
+                  Blandit justo aliquam molestie nunc sapien
+                </p>
+              </li>
+
+              <li>
+                <h3 class="h4 card-title">How does SCEO handle my privacy?</h3>
+
+                <p class="section-text">
+                  Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit
+                  ultrice ligula
+                </p>
+
+                <p class="section-text">
+                  An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at
+                  velna
+                </p>
+
+              </li>
+
+              <li>
+
+                <h3 class="h4 card-title">I have an issue with my account</h3>
+
+                <ul class="faq-item-list">
+
+                  <li>
+                    <p class="section-text">
+                      Fringilla risus, luctus mauris orci auctor purus
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="section-text">
+                      Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus
+                    </p>
+                  </li>
+
+                </ul>
+
+              </li>
+
+            </ul>
 
           </div>
+
+          <p class="faq-bottom-link">
+            Have more questions?
+            <a href="#">Ask your question here</a>
+          </p>
 
         </div>
       </section>
@@ -475,138 +510,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         - #CTA
       -->
 
-      <section class="section cta" aria-label="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
+      <section class="cta">
         <div class="container">
+          <div class="cta-card">
 
-          <p class="cta-subtitle">So What is Next?</p>
+            <h2 class="cta-title">Try SCEO free for 14 days. Start your trial now and pick a plan later</h2>
 
-          <h2 class="h2 section-title">Are You Ready? Let's get to Work!</h2>
+            <div class="cta-button-wrapper">
+              <button class="btn btn-primary">Get started now</button>
 
-          <a href="#" class="btn btn-secondary">Get Started</a>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #BLOG
-      -->
-
-     
-
-
-      <!-- 
-        - #CONTACT
-      -->
-
-      <section class="section contact" id="contact" aria-label="contact">
-        <div class="container">
-
-          <h2 class="h2 section-title">Let's Contact With Us</h2>
-
-          <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna
-            aliqua.
-          </p>
-
-          <form action="" class="contact-form">
-
-            <div class="input-wrapper">
-              <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
-
-              <input type="email" name="email_address" aria-label="email" placeholder="Email address*" required
-                class="input-field">
+              <a href="#faq">Read The FAQs</a>
             </div>
 
-            <div class="input-wrapper">
-              <input type="text" name="subject" aria-label="subject" placeholder="Subject" class="input-field">
-
-              <input type="number" name="phone" aria-label="phone" placeholder="Phone number" class="input-field">
-            </div>
-
-            <textarea name="message" aria-label="message" placeholder="Your message...*" required
-              class="input-field"></textarea>
-
-            <div class="checkbox-wrapper">
-              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
-
-              <label for="terms" class="label">
-                Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privacy
-                  Policy</a>
-              </label>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Send Message</button>
-
-          </form>
-
-          <ul class="contact-list">
-
-            <li class="contact-item">
-              <div class="contact-card">
-
-                <div class="card-icon">
-                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Mail Here</h3>
-
-                  <a href="mailto:hello@luaz.com" class="card-link">hello@luaz.com</a>
-                  <a href="mailto:info@luaz.com" class="card-link">info@luaz.com</a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="contact-card">
-
-                <div class="card-icon">
-                  <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Visit Here</h3>
-
-                  <address class="card-address">
-                    27 Division St, New York,<br>
-                    NY 10002, USA
-                  </address>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="contact-card">
-
-                <div class="card-icon">
-                  <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Call Here</h3>
-
-                  <a href="tel:+1234567890" class="card-link">+123 456 7890</a>
-                  <a href="tel:+2414524526" class="card-link">+241 452 4526</a>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
+          </div>
         </div>
       </section>
 
@@ -621,14 +537,160 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     - #FOOTER
   -->
 
-  <footer class="footer">
-    <div class="container">
+  <footer>
 
-      <p class="copyright">
-        &copy; 2022 All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>
-      </p>
+    <div class="footer-top">
+      <div class="container">
 
+        <div class="footer-brand">
+
+          <a href="#" class="footer-logo">
+            <img src="./assets/images/logo.svg" alt="SCEO logo">
+          </a>
+
+          <p class="section-text">
+            Aliquam nullam tempor sapien donec and gravida congue an ipsum porta justo velna auctor magna and laoreet
+            augue an
+            auctor gravida donec
+          </p>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Company</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Careers</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Press & Media</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Discover</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Our Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Advertising</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Plans & Pricing</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Testimonials</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Legal</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Cookie Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Site Map</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Support</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQs</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Editor Help</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Community</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Live Chatting</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
     </div>
+
+    <hr class="divider">
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">GitHub</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">YouTube</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
   </footer>
 
 
@@ -636,11 +698,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <!-- 
-    - #BACK TO TOP
+    - #GO TOP
   -->
 
-  <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
-    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
   </a>
 
 
@@ -650,7 +712,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/script.js"></script>
 
   <!-- 
     - ionicon link
