@@ -209,7 +209,7 @@
   .h3 {
     color: var(--eerie-black);
     font-family: var(--ff-league-spartan);
-    line-height: 1;
+    line-height: 1.5;
   }
   
   .h1 { font-size: var(--fs-1); }
