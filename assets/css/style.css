@@ -332,7 +332,7 @@ header .container {
   outline: none;
 }
 
-.hero .btn-primary { margin-inline: auto; }
+.hero .btn-primary { margin-inline: auto; margin-top: 27px}
 
 .hero-text {
   color: var(--sonic-silver);
