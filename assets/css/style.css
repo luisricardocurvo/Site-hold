@@ -173,7 +173,8 @@ body { background: var(--white); }
 
 .h2 { font-size: var(--fs-2); }
 
-.h3 { font-size: var(--fs-3);}
+.h3 { font-size: var(--fs-3); 
+     text-align:center;}
 
 .h4 { font-size: var(--fs-5); }
 
