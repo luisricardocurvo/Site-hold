@@ -403,7 +403,7 @@ header .container {
 .about .section-title,
 .about-content .section-text:not(:last-child),
 .about-bottom-title,
-.about-bottom-item:first-child { margin-bottom: 20px; }
+.about-bottom-item:first-child { margin-bottom: 45px; }
 
 .about-bottom-list { margin-left: 18px; }
 
